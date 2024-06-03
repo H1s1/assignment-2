@@ -1,0 +1,35 @@
+.slider{
+    margin-top: 60px;
+margin-left: 75px;
+width: 370px;
+height: 526px;
+box-shadow: 0px 0px 3px gray;
+position: relative;
+}
+.slide{
+    width: 370px;
+    height: 526px;
+    transition: 1s;
+    position: absolute;
+}
+.dots-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-left: 58px;
+}
+
+.dots-container .dot {
+    cursor: pointer;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    color:#000000;
+    border-radius: 50%;
+    background-color: #dfd6ce;
+  }
+  
+  .dots-container .dot.active {
+    border: 2px solid rgb(46, 166, 206);
+  }
